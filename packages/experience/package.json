@@ -1,0 +1,20 @@
+{
+  "name": "@fairy/experience",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./App.tsx",
+    "./styles": "./styles.css"
+  },
+  "dependencies": {
+    "@fairy/ui": "workspace:*",
+    "@fairy/gpu": "workspace:*",
+    "@fairy/tailwindcss": "workspace:*",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "fairy-tail",
+  "version": "0.1.0",
+  "description": "Recherche Fairy Tail FR/EN/JA dans une archive locale sourcée, avec livres et catalogues vidéo.",
+  "interface": {
+    "displayName": "Fairy Tail Archive",
+    "shortDescription": "Corpus local sourcé FR, EN et japonais",
+    "category": "Entertainment"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

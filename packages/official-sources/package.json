@@ -1,0 +1,14 @@
+{
+  "name": "@fairy/official-sources",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./types": "./types.ts",
+    "./catalog": "./generated/view-catalog.json",
+    "./evidence": "./generated/catalog.json",
+    "./themes": "./generated/themes.css"
+  },
+  "scripts": {
+    "generate": "bun generate.ts"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "@fairy/crawler",
+  "private": true,
+  "type": "module",
+  "exports": "./index.ts"
+}

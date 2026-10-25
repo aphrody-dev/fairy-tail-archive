@@ -1,0 +1,6 @@
+{
+  "name": "@fairy/library",
+  "private": true,
+  "type": "module",
+  "exports": "./index.ts"
+}

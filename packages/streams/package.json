@@ -1,0 +1,6 @@
+{
+  "name": "@fairy/streams",
+  "private": true,
+  "type": "module",
+  "exports": "./index.ts"
+}

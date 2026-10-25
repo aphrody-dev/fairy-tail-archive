@@ -1,0 +1,6 @@
+{
+  "name": "@fairy/manga",
+  "private": true,
+  "type": "module",
+  "exports": "./index.ts"
+}

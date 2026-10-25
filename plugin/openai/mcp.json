@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "fairy-tail": {
+      "type": "stdio",
+      "command": "bun",
+      "args": ["C:/src/ft/apps/mcp/main.ts"],
+      "env": {
+        "ARCHIVE_DB": "C:/src/ft/data/archive.sqlite"
+      }
+    }
+  }
+}

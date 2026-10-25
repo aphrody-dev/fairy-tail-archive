@@ -1,0 +1,6 @@
+{
+  "name": "@fairy/archive",
+  "private": true,
+  "type": "module",
+  "exports": "./index.ts"
+}

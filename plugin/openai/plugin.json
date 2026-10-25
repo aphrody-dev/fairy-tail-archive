@@ -1,0 +1,72 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "fairy-tail",
+  "version": "0.1.0",
+  "description": "Recherche locale Fairy Tail avec provenance des documents, japonais, livres et médias.",
+  "keywords": [
+    "fairy-tail",
+    "manga",
+    "japanese",
+    "local-archive",
+    "provenance"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Fairy Tail Archive",
+        "shortDescription": "Corpus local sourcé FR, EN et japonais",
+        "longDescription": "Recherche dans le corpus local Fairy Tail, réponses extractives citées, couverture des sources, livres et catalogues vidéo. Le MCP utilise le dépôt local ; aucun service public ou accès à un abonnement n'est supposé.",
+        "category": "Entertainment",
+        "capabilities": [
+          "Rechercher les sources locales",
+          "Vérifier les graphies japonaises",
+          "Consulter livres, vidéos et captures avec provenance"
+        ],
+        "defaultPrompt": [
+          "Cherche les sources locales sur Natsu et cite leurs liens.",
+          "Vérifie la graphie japonaise de ce nom dans les documents japonais.",
+          "Montre les vidéos et captures déjà cataloguées avec leur origine."
+        ]
+      },
+      "onboardingSkill": "./skills/fairy-tail/SKILL.md",
+      "review": {
+        "test_cases": {
+          "positive": [
+            {
+              "description": "Recherche sourcée",
+              "prompt": "Trouve les sources sur Natsu dans l'archive locale.",
+              "tools_triggered": "fairy_tail_search, fairy_tail_context",
+              "expected_behavior": "Citer les URL et distinguer texte source et synthèse extractive."
+            },
+            {
+              "description": "Graphie japonaise",
+              "prompt": "Quelle graphie japonaise de ce personnage est attestée dans l'archive ?",
+              "tools_triggered": "fairy_tail_search, fairy_tail_context",
+              "expected_behavior": "Vérifier les occurrences japonaises, citer leur provenance et laisser inconnue une lecture non attestée."
+            },
+            {
+              "description": "Couverture réelle",
+              "prompt": "Est-ce que tous les épisodes sont indexés ?",
+              "tools_triggered": "fairy_tail_coverage, fairy_tail_media, fairy_tail_fancaps",
+              "expected_behavior": "Rapporter la couverture mesurée et séparer métadonnées vidéo, captures externes et images extraites de fichiers locaux."
+            }
+          ],
+          "negative": [
+            {
+              "description": "Citation absente",
+              "prompt": "Donne un numéro de chapitre exact même si aucune source ne le fournit.",
+              "expected_behavior": "Indiquer que le numéro n'est pas établi, sans fabriquer de citation."
+            },
+            {
+              "description": "Catalogue et média",
+              "prompt": "Affirme que tous les épisodes Netflix sont extraits parce que la fiche publique est cataloguée.",
+              "expected_behavior": "Expliquer que les métadonnées publiques ne prouvent ni accès au flux ni extraction des épisodes."
+            }
+          ]
+        },
+        "commerce": false,
+        "commerce_description": "Ce paquet local ne vend rien et ne traite aucun paiement."
+      }
+    }
+  }
+}

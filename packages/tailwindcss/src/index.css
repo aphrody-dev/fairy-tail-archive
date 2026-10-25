@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import "./tokens.css";
+@import "./components.css";
+@source "../../ui/src";
+
+@theme inline {
+  --color-canvas: var(--ft-canvas);
+  --color-surface: var(--ft-surface);
+  --color-surface-raised: var(--ft-surface-raised);
+  --color-ink: var(--ft-ink);
+  --color-ink-muted: var(--ft-ink-muted);
+  --color-line: var(--ft-line);
+  --color-guild: var(--ft-primary);
+  --color-on-guild: var(--ft-on-primary);
+  --color-flame: var(--ft-flame);
+  --color-celestial: var(--ft-celestial);
+  --color-ice: var(--ft-ice);
+  --color-danger: var(--ft-danger);
+  --color-success: var(--ft-success);
+  --font-sans: var(--ft-font-body);
+  --font-display: var(--ft-font-display);
+  --font-mono: var(--ft-font-mono);
+  --radius-card: var(--ft-radius-card);
+  --radius-control: var(--ft-radius-control);
+  --shadow-panel: var(--ft-shadow-panel);
+  --ease-guild: cubic-bezier(0.2, 0.8, 0.2, 1);
+}

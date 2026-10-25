@@ -1,0 +1,8 @@
+{
+  "name": "@fairy/gpu",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./index.ts"
+  }
+}

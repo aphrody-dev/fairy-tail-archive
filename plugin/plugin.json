@@ -1,0 +1,7 @@
+{
+  "name": "fairy-tail",
+  "version": "0.1.0",
+  "description": "Recherche Fairy Tail FR/EN/JA dans une archive locale sourcée, avec livres et catalogues vidéo.",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

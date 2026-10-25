@@ -1,0 +1,24 @@
+{
+  "name": "fairy-tail-archive",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "mcp": "bun apps/mcp/main.ts",
+    "plugin:configure": "bun plugin/scripts/configure.ts",
+    "setup": "bun apps/cli/main.ts setup",
+    "index": "bun apps/cli/main.ts index",
+    "start": "bun apps/api/main.ts",
+    "cli": "bun apps/cli/main.ts",
+    "design:dev": "bun run --cwd apps/design-system dev",
+    "design:build": "bun run --cwd apps/design-system build",
+    "sources:generate": "bun packages/official-sources/generate.ts",
+    "test": "bun test",
+    "check": "bun check --threads=2",
+    "lint": "bun lint",
+    "fmt": "bun fmt"
+  }
+}

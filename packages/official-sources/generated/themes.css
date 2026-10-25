@@ -1,0 +1,233 @@
+/* Generated from observed, unconditional official CSS declarations. Do not edit. Missing properties use browser-neutral application defaults. */
+[data-ft-source="W01"] {
+  /* https://www.fairytail100yq.com/assets/css/layout.css?241013 | body | native AST, no source line mapping | 68d939a057dfdd3d09b73959c970453fbefaf228905068977964b228c1131ec1 */
+  --ft-font-body: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  /* https://www.fairytail100yq.com/assets/css/layout.css?241013 | body | native AST, no source line mapping | 68d939a057dfdd3d09b73959c970453fbefaf228905068977964b228c1131ec1 */
+  --ft-canvas: #fff;
+  /* https://www.fairytail100yq.com/assets/css/layout.css?241013 | body | native AST, no source line mapping | 68d939a057dfdd3d09b73959c970453fbefaf228905068977964b228c1131ec1 */
+  --ft-ink: #212529;
+}
+[data-ft-source="W03"] {
+  /* https://www.tv-tokyo.co.jp/anime/fairytail/css/style_common.css | body | native AST, no source line mapping | 3d627521cd56f09bd02bf14b9b75c74e57c319b4686cd983f26830fd4a4148d0 */
+  --ft-font-body: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, Osaka, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+}
+[data-ft-source="W05"] {
+  /* https://www.kodansha.co.jp/build/assets/app-clmHpfgm.css | body | native AST, no source line mapping | 9c1de17467e6a775192bec3bd6a0a5ec863bb572c85fa6f146d8d9a264f6f0c3 */
+  --ft-font-body: Hiragino Kaku Gothic ProN, Hiragino Sans, Noto Sans JP, Meiryo, sans-serif;
+}
+[data-ft-source="W06"] {
+  /* https://www.kodansha.co.jp/build/assets/app-clmHpfgm.css | body | native AST, no source line mapping | 9c1de17467e6a775192bec3bd6a0a5ec863bb572c85fa6f146d8d9a264f6f0c3 */
+  --ft-font-body: Hiragino Kaku Gothic ProN, Hiragino Sans, Noto Sans JP, Meiryo, sans-serif;
+}
+[data-ft-source="W09"] {
+  /* https://licensing.kodansha.com/css/style.min.css | html | native AST, no source line mapping | feb423d36692bc16fad97cf48a496cf159156fdfd970943d7c2ba12a87b4d28f */
+  --ft-font-body: Maax-Regular, sans-serif;
+  /* https://licensing.kodansha.com/css/style.min.css | html | native AST, no source line mapping | feb423d36692bc16fad97cf48a496cf159156fdfd970943d7c2ba12a87b4d28f */
+  --ft-ink: #212121;
+  /* https://licensing.kodansha.com/css/style.min.css | body | native AST, no source line mapping | feb423d36692bc16fad97cf48a496cf159156fdfd970943d7c2ba12a87b4d28f */
+  --ft-canvas: #fff;
+}
+[data-ft-source="W10"] {
+  /* https://www.pika.fr/livres-series-fairy-tail/#inline-style-2 | html, body | native AST, no source line mapping | e79060f774d92aeddbb912889e5b944b75e9e08f026a646946b0367015409e41 */
+  --ft-ink: #000;
+  /* https://www.pika.fr/livres-series-fairy-tail/#inline-style-2 | html, body | native AST, no source line mapping | e79060f774d92aeddbb912889e5b944b75e9e08f026a646946b0367015409e41 */
+  --ft-font-body: obviously, sans-serif;
+  /* https://www.pika.fr/livres-series-fairy-tail/#inline-style-1 | body | native AST, no source line mapping | 67d620bc1a550f29d7770e5665295e1390acb96ebd8928ea2b03556fa8281fab */
+  --ft-canvas: #fff;
+}
+[data-ft-source="W11"] {
+  /* https://www.pika.fr/livres-fairy-tail/#inline-style-2 | html, body | native AST, no source line mapping | f6ddc1a24a0f231509b477c62e8b03871fe0af9f20a7521f4e056807b75038f5 */
+  --ft-ink: #000;
+  /* https://www.pika.fr/livres-fairy-tail/#inline-style-2 | html, body | native AST, no source line mapping | f6ddc1a24a0f231509b477c62e8b03871fe0af9f20a7521f4e056807b75038f5 */
+  --ft-font-body: obviously, sans-serif;
+  /* https://www.pika.fr/livres-fairy-tail/#inline-style-1 | body | native AST, no source line mapping | 37735468bb74d636209bf4bd76952e88bd560a0643d3c0f053f7b6ed16c3790d */
+  --ft-canvas: #fff;
+}
+[data-ft-source="W12"] {
+  /* https://gaga.ne.jp/FT.DC/common/css/common.css | body | native AST, no source line mapping | 5fff85c86121fbbe06075477fa444c160237df6afb0bc0874fc3d4009add605c */
+  --ft-font-body: YuGothic, Yu Gothic, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, Osaka, ＭＳ Ｐゴシック, MS PGothic, "sans-serif";
+}
+[data-ft-source="W13"] {
+  /* https://a1p.jp/assets/css/a1p.default.css?v=1.7.0 | body, button, input, select, textarea, datalist | native AST, no source line mapping | a2227d80b370253ee8e732f9faf4cc3bdd566743396ef896f0d3157d2f0603da */
+  --ft-font-body: YakuHanJP, motiva-sans, a-otf-gothic-bbb-pr6n, -apple-system, BlinkMacSystemFont, Helvetica Neue, 游ゴシック, YuGothic, ヒラギノ角ゴ ProN W3, Hiragino Kaku Gothic ProN, Arial, メイリオ, Meiryo, sans-serif;
+}
+[data-ft-source="W14"] {
+  /* https://www.fairytailgame.com/common/css/style.css | body | native AST, no source line mapping | b9d15c8db84c5bc4fcce1776902b9a7f9327284fbc67566d98a3b4e4c636d267 */
+  --ft-font-body: Open Sans, Helvetica, ヒラギノ角ゴ ProN W3, Hiragino Kaku Gothic ProN, メイリオ, Meiryo, sans-serif;
+  /* https://www.fairytailgame.com/common/css/style.css | body | native AST, no source line mapping | b9d15c8db84c5bc4fcce1776902b9a7f9327284fbc67566d98a3b4e4c636d267 */
+  --ft-ink: #fff;
+  /* https://www.fairytailgame.com/common/css/style.css | body | native AST, no source line mapping | b9d15c8db84c5bc4fcce1776902b9a7f9327284fbc67566d98a3b4e4c636d267 */
+  --ft-canvas: #333;
+}
+[data-ft-source="W15"] {
+}
+[data-ft-source="W16"] {
+}
+[data-ft-source="W17"] {
+  /* https://www.koeitecmoamerica.com/wp-content/themes/app/html/dist/css/main.css | body | native AST, no source line mapping | b9096f5aac380cb148aaa3bcdd3c680d8d4fed453cc2246154111a034208db8c */
+  --ft-font-body: Noto Sans JP, -apple-system, BlickMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+[data-ft-source="W18"] {
+  /* https://www.koeitecmoamerica.com/wp-content/themes/app/html/dist/css/main.css | body | native AST, no source line mapping | b9096f5aac380cb148aaa3bcdd3c680d8d4fed453cc2246154111a034208db8c */
+  --ft-font-body: Noto Sans JP, -apple-system, BlickMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+[data-ft-source="W19"] {
+  /* https://www.gamecity.ne.jp/css/game_page.css?ver=0 | body | native AST, no source line mapping | e9c658cb68d383d38e0d40af0151b0ed58c48075a2ab9f5f78cd93a5d73abd36 */
+  --ft-canvas: #fff;
+  /* https://www.gamecity.ne.jp/css/game_page.css?ver=0 | body | native AST, no source line mapping | e9c658cb68d383d38e0d40af0151b0ed58c48075a2ab9f5f78cd93a5d73abd36 */
+  --ft-ink: #000;
+  /* https://www.gamecity.ne.jp/css/game_page.css?ver=0 | body | native AST, no source line mapping | e9c658cb68d383d38e0d40af0151b0ed58c48075a2ab9f5f78cd93a5d73abd36 */
+  --ft-font-body: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Meiryo, メイリオ, ＭＳ Ｐゴシック, Arial, Helvetica, sans-serif;
+}
+[data-ft-source="W20"] {
+  /* https://www.gamecity.ne.jp/fairytail/css/common.css?date=200521 | body | native AST, no source line mapping | c957f807bf132df5ebc01fe56a453d38037a35e619401da5df5d182c6e12d064 */
+  --ft-ink: #fff;
+  /* https://www.gamecity.ne.jp/fairytail/css/common.css?date=200521 | body | native AST, no source line mapping | c957f807bf132df5ebc01fe56a453d38037a35e619401da5df5d182c6e12d064 */
+  --ft-canvas: #000;
+}
+[data-ft-source="W24"] {
+  /* https://www.starcomics.com/css/app.min.css?v=2.1.7 | body | native AST, no source line mapping | 0d66af6c0cbde43049690d5f6b07db3af7e28f0e3030323cb27ad1bb7b65cd2a */
+  --ft-font-body: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  /* https://www.starcomics.com/css/app.min.css?v=2.1.7 | body | native AST, no source line mapping | 0d66af6c0cbde43049690d5f6b07db3af7e28f0e3030323cb27ad1bb7b65cd2a */
+  --ft-ink: #212529;
+  /* https://www.starcomics.com/css/app.min.css?v=2.1.7 | body | native AST, no source line mapping | 0d66af6c0cbde43049690d5f6b07db3af7e28f0e3030323cb27ad1bb7b65cd2a */
+  --ft-canvas: #fff;
+}
+[data-ft-source="W25"] {
+  /* https://madochro.com/#inline-style-1 | html, body | native AST, no source line mapping | 7935df592057d918a64f7214be8a6d8c3844c4d79df12e4beac93ac5df8d972a */
+  --ft-font-body: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+  /* https://madochro.com/#inline-style-1 | body | native AST, no source line mapping | 7935df592057d918a64f7214be8a6d8c3844c4d79df12e4beac93ac5df8d972a */
+  --ft-canvas: #000;
+  /* https://madochro.com/#inline-style-1 | body | native AST, no source line mapping | 7935df592057d918a64f7214be8a6d8c3844c4d79df12e4beac93ac5df8d972a */
+  --ft-ink: #fff;
+}
+[data-ft-source="W26"] {
+  /* https://play.google.com/store/apps/details?id=jp.co.goodroid.fairy#inline-style-1 | body | native AST, no source line mapping | 90e5a542f670ef83ae4abf63041fc8fc2e44fbe0e03a21d8caf4a3f1ad49e1e3 */
+  --ft-ink: #333;
+  /* https://play.google.com/store/apps/details?id=jp.co.goodroid.fairy#inline-style-1 | body | native AST, no source line mapping | 90e5a542f670ef83ae4abf63041fc8fc2e44fbe0e03a21d8caf4a3f1ad49e1e3 */
+  --ft-font-body: inherit;
+  /* https://play.google.com/store/apps/details?id=jp.co.goodroid.fairy#inline-style-1 | body | native AST, no source line mapping | 90e5a542f670ef83ae4abf63041fc8fc2e44fbe0e03a21d8caf4a3f1ad49e1e3 */
+  --ft-canvas: #fff;
+}
+[data-ft-source="W27"] {
+  /* https://apps.apple.com/assets/index~DPWTyaYqK4.css | html | native AST, no source line mapping | c22b32431156c59c483754a831319c59ca6ad8c0ee25fb493540859586bce7b0 */
+  --ft-font-body: -apple-system, BlinkMacSystemFont, Apple Color Emoji, SF Pro, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+[data-ft-source="W30"] {
+  /* https://fairytail-gkmh.com/fininfo/res/pc/css/normalize.css | body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, table, pre | native AST, no source line mapping | 61dfde644cbe0adda8d30db66a2865bd940082b9448805256acf65c437352a67 */
+  --ft-font-body: Hiragino Kaku Gothic Pro, Yu Gothic, Meiryo, sans-serif;
+}
+[data-ft-source="W34"] {
+  /* https://prtimes.jp/_react-router/assets/root-kes5oQGS.css | body | native AST, no source line mapping | 421d80ce8ade8c1df516713acdc3d42bff5f8cfe0ce20e3a565f4ebd3c6d468c */
+  --ft-font-body: inherit;
+}
+[data-ft-source="W46"] {
+}
+[data-ft-source="W47"] {
+}
+[data-ft-source="W53"] {
+  /* https://www.carlsen.de/sites/default/files/css/css_g7AdDPise9D8MWfUJWIC4cAiU6zqMAPFM-p7IHqR8Ps.css?delta=1&language=de&theme=carlsen&include=eJxljmsKwzAMgy8UmiMVO_GSQBIb22Hs9mvHHrD-kz4JJGR2cwXZEVQbR1SCnHQNDPif3VjHlQ4yg0K291aqX_PJmUIC8VQhIthptBvN-IZfL8p5JW88v8juTUhDYqWYdQn0LTfoXMKgQ0SmgZS38xm4H00BhXKsV_v0f2RbUxb2ZpVysIc5jdehJ84JZns | body | native AST, no source line mapping | 655592d9be95f87f3989da5f892f862a103f69c322ba8182061ef146bf152008 */
+  --ft-font-body: Dosis, Arial, Verdana, sans-serif;
+  /* https://www.carlsen.de/sites/default/files/css/css_g7AdDPise9D8MWfUJWIC4cAiU6zqMAPFM-p7IHqR8Ps.css?delta=1&language=de&theme=carlsen&include=eJxljmsKwzAMgy8UmiMVO_GSQBIb22Hs9mvHHrD-kz4JJGR2cwXZEVQbR1SCnHQNDPif3VjHlQ4yg0K291aqX_PJmUIC8VQhIthptBvN-IZfL8p5JW88v8juTUhDYqWYdQn0LTfoXMKgQ0SmgZS38xm4H00BhXKsV_v0f2RbUxb2ZpVysIc5jdehJ84JZns | body | native AST, no source line mapping | 655592d9be95f87f3989da5f892f862a103f69c322ba8182061ef146bf152008 */
+  --ft-ink: #000;
+  /* https://www.carlsen.de/sites/default/files/css/css_g7AdDPise9D8MWfUJWIC4cAiU6zqMAPFM-p7IHqR8Ps.css?delta=1&language=de&theme=carlsen&include=eJxljmsKwzAMgy8UmiMVO_GSQBIb22Hs9mvHHrD-kz4JJGR2cwXZEVQbR1SCnHQNDPif3VjHlQ4yg0K291aqX_PJmUIC8VQhIthptBvN-IZfL8p5JW88v8juTUhDYqWYdQn0LTfoXMKgQ0SmgZS38xm4H00BhXKsV_v0f2RbUxb2ZpVysIc5jdehJ84JZns | body | native AST, no source line mapping | 655592d9be95f87f3989da5f892f862a103f69c322ba8182061ef146bf152008 */
+  --ft-canvas: #fff;
+}
+[data-ft-source="W54"] {
+  /* https://www.normaeditorial.com/build/app.329cb7a5.css | body | native AST, no source line mapping | 6eb1bfcdd08a1a099a61a72029c1dee987256050b9958bde10e6f7a03914ae15 */
+  --ft-font-body: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  /* https://www.normaeditorial.com/build/app.329cb7a5.css | body | native AST, no source line mapping | 6eb1bfcdd08a1a099a61a72029c1dee987256050b9958bde10e6f7a03914ae15 */
+  --ft-ink: #212529;
+  /* https://www.normaeditorial.com/build/app.329cb7a5.css | body | native AST, no source line mapping | 6eb1bfcdd08a1a099a61a72029c1dee987256050b9958bde10e6f7a03914ae15 */
+  --ft-canvas: #fff;
+}
+[data-ft-source="W58"] {
+  /* https://studiojg.pl/css/main.css?t=1792886443 | body | native AST, no source line mapping | 13c01c5e95938a11f005958fece688fc8e58e95204ee330115794f2e3ada0f28 */
+  --ft-font-body: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  /* https://studiojg.pl/css/main.css?t=1792886443 | body | native AST, no source line mapping | 13c01c5e95938a11f005958fece688fc8e58e95204ee330115794f2e3ada0f28 */
+  --ft-ink: #212529;
+  /* https://studiojg.pl/css/main.css?t=1792886443 | body | native AST, no source line mapping | 13c01c5e95938a11f005958fece688fc8e58e95204ee330115794f2e3ada0f28 */
+  --ft-canvas: #fff;
+}
+[data-ft-source="W59"] {
+  /* https://www.gerekliseyler.com.tr/shop/cd/03/themes/selftpl_6ac91139bcf46/renders/css/theme.css?revision=8.4.4.0-5-1792841641 | body | native AST, no source line mapping | 23552ba425d315c3f21338c2dee78cb7f914d0b4faa007a087e1aa4fbc2979a9 */
+  --ft-font-body: Poppins, sans-serif;
+  /* https://www.gerekliseyler.com.tr/shop/cd/03/themes/selftpl_6ac91139bcf46/renders/css/theme.css?revision=8.4.4.0-5-1792841641 | body | native AST, no source line mapping | 23552ba425d315c3f21338c2dee78cb7f914d0b4faa007a087e1aa4fbc2979a9 */
+  --ft-ink: #212121;
+  /* https://www.gerekliseyler.com.tr/shop/cd/03/themes/selftpl_6ac91139bcf46/renders/css/theme.css?revision=8.4.4.0-5-1792841641 | body | native AST, no source line mapping | 23552ba425d315c3f21338c2dee78cb7f914d0b4faa007a087e1aa4fbc2979a9 */
+  --ft-canvas: #fff;
+}
+[data-ft-source="W63"] {
+  /* https://www.vibulkijshop.com/system/application/templates/lnwshop/default/_css/basic1200.min.css?t=20260810000051 | body | native AST, no source line mapping | e2fa238d431447a4bb42408a03fc4b9d7f19507ae30f9f22e96ee795375ada93 */
+  --ft-font-body: Tahoma, Arial, MS Sans Serif, sans-serif;
+}
+[data-ft-source="W64"] {
+  /* https://www.elexmedia.id/dist/css/style-author.69eb5d52.css | body | native AST, no source line mapping | 69eb5d526c2ce20568187f036cc151e5f6a7ca0890dc7d247c01c89770183526 */
+  --ft-font-body: Author-Regular, sans-serif;
+  /* https://www.elexmedia.id/dist/css/style-author.69eb5d52.css | body | native AST, no source line mapping | 69eb5d526c2ce20568187f036cc151e5f6a7ca0890dc7d247c01c89770183526 */
+  --ft-ink: #454545;
+  /* https://www.elexmedia.id/dist/css/style-author.69eb5d52.css | body | native AST, no source line mapping | 69eb5d526c2ce20568187f036cc151e5f6a7ca0890dc7d247c01c89770183526 */
+  --ft-canvas: #fff;
+}
+[data-ft-source="W66"] {
+  /* https://pocket.shonenmagazine.com/_nuxt/1pp6k/BMCQpgto.css | body | native AST, no source line mapping | a29b9fb93e30a407b8c8bf1d9068e03ffb0460ceb69eb0235b3583bb5231ec0f */
+  --ft-canvas: #fff;
+  /* https://pocket.shonenmagazine.com/_nuxt/1pp6k/BMCQpgto.css | body | native AST, no source line mapping | a29b9fb93e30a407b8c8bf1d9068e03ffb0460ceb69eb0235b3583bb5231ec0f */
+  --ft-ink: #333;
+  /* https://pocket.shonenmagazine.com/_nuxt/1pp6k/BMCQpgto.css | body | native AST, no source line mapping | a29b9fb93e30a407b8c8bf1d9068e03ffb0460ceb69eb0235b3583bb5231ec0f */
+  --ft-font-body: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+[data-ft-source="W67"] {
+  /* https://pocket.shonenmagazine.com/_nuxt/1pp6k/BMCQpgto.css | body | native AST, no source line mapping | a29b9fb93e30a407b8c8bf1d9068e03ffb0460ceb69eb0235b3583bb5231ec0f */
+  --ft-canvas: #fff;
+  /* https://pocket.shonenmagazine.com/_nuxt/1pp6k/BMCQpgto.css | body | native AST, no source line mapping | a29b9fb93e30a407b8c8bf1d9068e03ffb0460ceb69eb0235b3583bb5231ec0f */
+  --ft-ink: #333;
+  /* https://pocket.shonenmagazine.com/_nuxt/1pp6k/BMCQpgto.css | body | native AST, no source line mapping | a29b9fb93e30a407b8c8bf1d9068e03ffb0460ceb69eb0235b3583bb5231ec0f */
+  --ft-font-body: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+[data-ft-source="W68"] {
+  /* https://kmanga.kodansha.com/_nuxt/1o3rl/Db_xinmL.css | body | native AST, no source line mapping | db370ec0ccf8120c03c4763bd325c2aaa619a062fa216aa2a8b28d2bbae1e249 */
+  --ft-ink: #333;
+  /* https://kmanga.kodansha.com/_nuxt/1o3rl/Db_xinmL.css | body | native AST, no source line mapping | db370ec0ccf8120c03c4763bd325c2aaa619a062fa216aa2a8b28d2bbae1e249 */
+  --ft-canvas: #fff;
+  /* https://kmanga.kodansha.com/_nuxt/1o3rl/Db_xinmL.css | body | native AST, no source line mapping | db370ec0ccf8120c03c4763bd325c2aaa619a062fa216aa2a8b28d2bbae1e249 */
+  --ft-font-body: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+[data-ft-source="W71"] {
+  /* https://www.cospa.com/cospa/css/siteid/001/file/standards_base?20221007 | body | native AST, no source line mapping | ddc301033c119d859d7839eae4891b8f801216368ed450f998706e0713af8ab4 */
+  --ft-canvas: #fff;
+  /* https://www.cospa.com/cospa/css/siteid/001/file/standards_base?20221007 | body | native AST, no source line mapping | ddc301033c119d859d7839eae4891b8f801216368ed450f998706e0713af8ab4 */
+  --ft-font-body: Noto Sans JP, sans-serif;
+  /* https://www.cospa.com/cospa/css/siteid/001/file/standards_base?20221007 | body | native AST, no source line mapping | ddc301033c119d859d7839eae4891b8f801216368ed450f998706e0713af8ab4 */
+  --ft-ink: #333;
+}
+[data-ft-source="W73"] {
+  /* https://eeo.today/store/101/html/template/101/assets/css/style.min.css?v=20250116 | body | native AST, no source line mapping | db567617d53915883323bf6ce90501f5b997fc7bad4d5c806adf59922c1769df */
+  --ft-font-body: Roboto, 游ゴシック, YuGothic, Yu Gothic, ヒラギノ角ゴ ProN W3, Hiragino Kaku Gothic ProN, Arial, メイリオ, Meiryo, sans-serif;
+  /* https://eeo.today/store/101/html/template/101/assets/css/style.min.css?v=20250116 | body | native AST, no source line mapping | db567617d53915883323bf6ce90501f5b997fc7bad4d5c806adf59922c1769df */
+  --ft-ink: #2e2a1f;
+  /* https://eeo.today/store/101/html/user_data/assets/css/customize.css | body | native AST, no source line mapping | ec0c3c2bbcb5e16afd3e8bac567757c1301a03bf6892c5edfad3045c3dddbfff */
+  --ft-canvas: #fff;
+}
+[data-ft-source="W74"] {
+  /* https://amnibus.com/css/amnibus/style.css | body | native AST, no source line mapping | 7992f36f40119af43d950389da0d6b8d9a15b7c6b641bc4d54dc10cb91a4dd5a */
+  --ft-font-body: Noto Sans JP, serif;
+}
+[data-ft-source="W77"] {
+  /* https://fairytail.jp/common/css/default.min.css | body | native AST, no source line mapping | 8b06dd2ee7268529eb2ba15881edbd54bd7aebe0621408d675703ac6c4aa59c7 */
+  --ft-font-body: ヒラギノ角ゴ ProN W3, Hiragino Kaku Gothic ProN, Arial, メイリオ, Meiryo, sans-serif;
+}
+[data-ft-source="W78"] {
+  /* https://www.crunchyroll.com/build/_next/static/css/f9e4957e5b80f405.css | body | native AST, no source line mapping | 62f574b003f2893de27963415fa8957583f51d7a3e18369e848e0544bbee3cfa */
+  --ft-canvas: #000;
+  /* https://www.crunchyroll.com/build/_next/static/css/f9e4957e5b80f405.css | html | native AST, no source line mapping | 62f574b003f2893de27963415fa8957583f51d7a3e18369e848e0544bbee3cfa */
+  --ft-font-body: sans-serif;
+  /* https://www.crunchyroll.com/build/_next/static/css/f9e4957e5b80f405.css | body, html | native AST, no source line mapping | 62f574b003f2893de27963415fa8957583f51d7a3e18369e848e0544bbee3cfa */
+  --ft-ink: #fff;
+}
+[data-ft-source="W79"] {
+}
+[data-ft-source="W80"] {
+}
+[data-ft-source="W81"] {
+}

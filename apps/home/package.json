@@ -1,0 +1,17 @@
+{
+  "name": "@fairy/home",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun build.mjs"
+  },
+  "dependencies": {
+    "@fairy/ui": "workspace:*",
+    "@fairy/tailwindcss": "workspace:*",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@aphrody/bun-plugin-tailwind": "1.4.7"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@fairy/tailwindcss",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "exports": {
+    ".": "./src/index.css",
+    "./tokens": "./src/tokens.css",
+    "./fonts": "./src/fonts.css",
+    "./components": "./src/components.css"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^4.3.3"
+  }
+}

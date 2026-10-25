@@ -1,0 +1,12 @@
+[
+  {
+    "url": "local:demo/natsu",
+    "title": "Natsu Dragnir",
+    "text": "Natsu Dragnir est un mage de Fairy Tail. Il utilise la magie du chasseur de dragons de feu. Ce texte est un exemple local de démonstration."
+  },
+  {
+    "url": "local:demo/lucy",
+    "title": "Lucy Heartfilia",
+    "text": "Lucy Heartfilia est une constellationniste de Fairy Tail. Elle utilise des clés pour invoquer des esprits stellaires. Ce texte est un exemple local de démonstration."
+  }
+]

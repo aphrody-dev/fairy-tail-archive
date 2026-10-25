@@ -1,0 +1,25 @@
+{
+  "name": "@fairy/ui",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts",
+    "./assets": "./src/assets.ts",
+    "./components": "./src/components.tsx",
+    "./theme": "./src/theme.tsx"
+  },
+  "dependencies": {
+    "@base-ui/react": "1.9.0"
+  },
+  "peerDependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "@fairy/tailwindcss": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0"
+  }
+}
