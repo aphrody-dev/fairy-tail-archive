@@ -7,22 +7,22 @@
 
 ## Project map
 
-| Path | Purpose |
-| --- | --- |
-| `apps/home` | Immersive WebGPU homepage and experience entry point |
-| `apps/api` | Local read API, REST/OpenAPI and GraphQL |
-| `apps/cli` | Setup, import, indexing, catalog collection and diagnostics |
-| `apps/mcp` | Read-only MCP interface for the archive |
-| `apps/design-system` | UI and GPU component catalogue |
-| `packages/archive` | SQLite archive, FTS5 and core document storage |
-| `packages/anime-catalog`, `manga`, `library` | Anime, arcs, manga and library catalogs |
-| `packages/crawler`, `official-sources` | Bounded source collection and provenance |
-| `packages/gpu`, `scene`, `experience`, `ui`, `tailwindcss` | WebGPU scene, interaction and design system |
-| `packages/video`, `streams` | Local media inspection and playback capabilities |
-| `packages/rag`, `search-index` | Extractive retrieval and native lexical index |
-| `tests` | Automated regression and integration checks |
-| `replica` | Recon notes, source inventory and design research |
-| `docs` | Operations, delivery plan and capability boundaries |
+| Path                                                       | Purpose                                                     |
+| ---------------------------------------------------------- | ----------------------------------------------------------- |
+| `apps/home`                                                | Immersive WebGPU homepage and experience entry point        |
+| `apps/api`                                                 | Local read API, REST/OpenAPI and GraphQL                    |
+| `apps/cli`                                                 | Setup, import, indexing, catalog collection and diagnostics |
+| `apps/mcp`                                                 | Read-only MCP interface for the archive                     |
+| `apps/design-system`                                       | UI and GPU component catalogue                              |
+| `packages/archive`                                         | SQLite archive, FTS5 and core document storage              |
+| `packages/anime-catalog`, `manga`, `library`               | Anime, arcs, manga and library catalogs                     |
+| `packages/crawler`, `official-sources`                     | Bounded source collection and provenance                    |
+| `packages/gpu`, `scene`, `experience`, `ui`, `tailwindcss` | WebGPU scene, interaction and design system                 |
+| `packages/video`, `streams`                                | Local media inspection and playback capabilities            |
+| `packages/rag`, `search-index`                             | Extractive retrieval and native lexical index               |
+| `tests`                                                    | Automated regression and integration checks                 |
+| `replica`                                                  | Recon notes, source inventory and design research           |
+| `docs`                                                     | Operations, delivery plan and capability boundaries         |
 
 Start with [`docs/operations.md`](docs/operations.md) for commands and local
 requirements, [`docs/media-capabilities.md`](docs/media-capabilities.md) for
@@ -88,6 +88,9 @@ déjà importé. Il ne télécharge pas implicitement de nouveaux médias. Le se
 - Images du registre officiel : `/references/:sourceId/:index` ; seules les
   images répertoriées sont servies, avec cache local et ETag. Redirections
   refusées, délai de 15 s et réponse plafonnée à 8 Mio.
+- Références sourcées de Lucy : `/characters/lucy/references`, avec distinction
+  des œuvres, provenance et limites ; les médias utilisateur restent locaux.
+- Profil de personnalité demandé pour Lucy : [docs/lucy-personality.md](docs/lucy-personality.md), séparé des faits canoniques.
 - Médias et conversion native : `/streams`, `/streams/player`,
   `/media/capabilities`.
 - Scènes interactives 2.5D WebGPU : `/scenes`, `/scenes/status`.

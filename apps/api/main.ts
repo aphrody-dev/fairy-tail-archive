@@ -1,5 +1,6 @@
 import { Archive } from "../../packages/archive/index.ts";
 import { referenceAssetResponse } from "../../packages/official-sources/asset-response.ts";
+import { lucyReferences } from "../../packages/official-sources/lucy.ts";
 import {
   animeCatalogStatus,
   listAnimeWorks,
@@ -8,7 +9,6 @@ import {
 import { listAnimeArcs } from "../../packages/anime-catalog/arcs.ts";
 import { mediaCapabilities } from "../../packages/video/capabilities.ts";
 import { streamFileResponse } from "../../packages/streams/import.ts";
-import { ask } from "../../packages/rag/index.ts";
 import { mediaCatalog } from "../../packages/video/sources.ts";
 import { publisherStatus } from "../../packages/crawler/publisher.ts";
 import { createOpenAPI } from "../../packages/api-contract/openapi.ts";
@@ -44,10 +44,6 @@ import {
   getWikiDocument,
   readMangaPreview,
 } from "../../packages/library/index.ts";
-import {
-  mangaImageResponse,
-  mangaPackageResponse,
-} from "../../packages/manga/index.ts";
 import {
   fancapsStatus,
   fancapsImageResponse,
@@ -100,6 +96,8 @@ export function createServer(archive: Archive, port = 3000) {
         );
       if (url.pathname === "/health")
         return Response.json({ ok: true, video: Bun.Video.available });
+      if (url.pathname === "/characters/lucy/references")
+        return Response.json(lucyReferences());
       if (url.pathname === "/media/capabilities")
         return Response.json(mediaCapabilities());
       if (url.pathname === "/anime/catalog/status")
@@ -301,12 +299,16 @@ export function createServer(archive: Archive, port = 3000) {
       }
       const mangaImage = /^\/cdn\/manga\/([0-9]+)$/.exec(url.pathname);
       if (mangaImage)
-        return mangaImageResponse(archive, Number(mangaImage[1]), req.headers);
+        return (
+          await import("../../packages/manga/index.ts")
+        ).mangaImageResponse(archive, Number(mangaImage[1]), req.headers);
       const mangaPackage = /^\/cdn\/manga\/package\/([0-9]{13})\.epub$/.exec(
         url.pathname,
       );
       if (mangaPackage)
-        return mangaPackageResponse(archive, mangaPackage[1]!, req.headers);
+        return (
+          await import("../../packages/manga/index.ts")
+        ).mangaPackageResponse(archive, mangaPackage[1]!, req.headers);
       if (url.pathname === "/openapi.json")
         return Response.json(createOpenAPI(url.origin));
       if (url.pathname === "/graphql/schema")
@@ -429,6 +431,7 @@ export function createServer(archive: Archive, port = 3000) {
             },
             { status: 400 },
           );
+        const { ask } = await import("../../packages/rag/index.ts");
         return Response.json(await ask(archive, question, language));
       }
       if (url.pathname === "/episodes")
@@ -497,6 +500,7 @@ export function createServer(archive: Archive, port = 3000) {
             "/anime/catalog/status",
             "/media/capabilities",
             "/references/:sourceId/:index",
+            "/characters/lucy/references",
             "/wiki",
             "/wiki/:id",
             "/openapi.json",
