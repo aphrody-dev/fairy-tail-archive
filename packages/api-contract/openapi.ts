@@ -63,6 +63,7 @@ export function createOpenAPI(serverUrl = "http://127.0.0.1:3000") {
       },
     },
     "/api": get("routes", object({ routes: array(str) })),
+    "/characters/lucy/references": get("lucyReferences", ref("LucyReferences")),
     "/references/{sourceId}/{index}": {
       get: {
         operationId: "officialReferenceAsset",
@@ -804,6 +805,28 @@ export function createOpenAPI(serverUrl = "http://127.0.0.1:3000") {
   };
   const schemas: Record<string, Schema> = {
     Error: object({ error: str }),
+    LucyReferences: object({
+      id: str,
+      name: str,
+      requestedWork: str,
+      updatedAt: { type: "string", format: "date" },
+      sources: array(
+        object({ url: str, language: str, kind: str, work: str, note: str }),
+      ),
+      images: array(
+        object({
+          sourceId: str,
+          assetIndex: int,
+          imageUrl: str,
+          sourceUrl: str,
+          localUrl: str,
+          observedAt: nullable("string"),
+          work: str,
+          rights: str,
+        }),
+      ),
+      limitations: array(str),
+    }),
     Stats: object({ documents: int, chunks: int, episodes: int, frames: int }),
     IndexStatus: object(
       {
