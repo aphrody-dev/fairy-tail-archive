@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "asset_id": "lucy-refantasia-blockout",
+  "display_name": "Lucy — RE:FANTASIA, source blockout",
+  "seed": 5032026,
+  "status": "blockout",
+  "source": {
+    "kind": "user-provided-reference",
+    "url": "https://bigsolo.org/manga/fairy-tail-refantasia/1/3",
+    "image_url": "https://cdnic.bigsolo.org/files/0cb7d15c2062.png",
+    "license": "unknown; source image is not embedded or redistributed"
+  },
+  "observed": [
+    "front view",
+    "long light-blond hair",
+    "pink towel tied over the head",
+    "both arms raised with hands holding towel edges",
+    "closed eyes and relaxed smile",
+    "strapless pink body towel"
+  ],
+  "interpretation": [
+    "back and side geometry",
+    "hair hidden beneath the towel",
+    "lower legs and feet",
+    "anatomy beneath the towels",
+    "all dimensions and hidden joint placements"
+  ],
+  "palette": {
+    "skin": [0.96, 0.77, 0.65, 1.0],
+    "hair": [0.96, 0.86, 0.57, 1.0],
+    "towel": [0.84, 0.48, 0.52, 1.0],
+    "cloth_shadow": [0.54, 0.29, 0.34, 1.0]
+  },
+  "build": {
+    "generator": "cpu-parametric",
+    "deterministic": true,
+    "embed_reference_pixels": false,
+    "require_skin": true,
+    "required_animation_clips": ["idle", "wave"]
+  }
+}

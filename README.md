@@ -20,6 +20,7 @@
 | `packages/gpu`, `scene`, `experience`, `ui`, `tailwindcss` | WebGPU scene, interaction and design system                 |
 | `packages/video`, `streams`                                | Local media inspection and playback capabilities            |
 | `packages/rag`, `search-index`                             | Extractive retrieval and native lexical index               |
+| `tools/openpets-3d-factory`                                 | Staging-only GLB blockout pipeline and Bevy/wgpu viewer       |
 | `tests`                                                    | Automated regression and integration checks                 |
 | `replica`                                                  | Recon notes, source inventory and design research           |
 | `docs`                                                     | Operations, delivery plan and capability boundaries         |
@@ -51,6 +52,7 @@ delivery plan. Shared contributor and coding-agent guidance lives in
 - [Web and wiki sources](#collecte-web-fr--en--ja-et-aphrody-web-wiki)
 - [Media and manga limits](#épisodes-et-images)
 - [Validation](#vérifications)
+- [Usine 3D OpenPets](docs/openpets-3d-factory.md)
 
 Monorepo local Bun Aphrody : SQLite FTS5, recherche floue et index natif,
 crawler Fandom, RAG Python extractif, pipeline Bun.Video/Bun.Image,

@@ -1,0 +1,13 @@
+{
+  "name": "openpets-3d-factory-validation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun run pipeline.ts",
+    "validate": "bun run validate.ts",
+    "openpets:package:check": "bun run validate-openpets-package.ts"
+  },
+  "dependencies": {
+    "gltf-validator": "2.0.0-dev.3.10"
+  }
+}

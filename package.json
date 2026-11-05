@@ -19,6 +19,9 @@
     "test": "bun test",
     "check": "bun check --threads=2",
     "lint": "bun lint",
-    "fmt": "bun fmt"
+    "fmt": "bun fmt",
+    "openpets:3d:doctor": "bun run tools/openpets-3d-factory/doctor.ts",
+    "openpets:3d:build": "bun run tools/openpets-3d-factory/pipeline.ts",
+    "openpets:3d:package:check": "bun run tools/openpets-3d-factory/validate-openpets-package.ts"
   }
 }

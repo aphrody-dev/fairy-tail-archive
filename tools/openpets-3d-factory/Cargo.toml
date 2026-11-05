@@ -1,0 +1,12 @@
+[package]
+name = "openpets-3d-factory"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+gltf = { version = "1.4.1", features = ["names"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+

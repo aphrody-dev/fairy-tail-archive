@@ -1,0 +1,9 @@
+[package]
+name = "openpets-3d-inspector"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+bevy = { version = "=0.20.1", default-features = false, features = ["3d", "bevy_gltf"] }
+
